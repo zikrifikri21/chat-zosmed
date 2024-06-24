@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Optional: CSS for styling the load more button and the scroll container */
+.scroll-container {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.load-more-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #3490dc;
+    color: white;
+    cursor: pointer;
+}
